@@ -1,0 +1,27 @@
+body {
+    /* background-color: rgb(241, 169, 169); */
+}
+
+.navbar {
+    background-color: rgb(233, 136, 97);
+}
+
+.container {
+    border-radius: 2rem;
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+hr {
+    color: lightcyan;
+    border: 1px dotted white;
+    size: 0.5rem;
+}
+
+.textarea {
+    /* background-color: yellowgreen; */
+    /* color: sienna; */
+}
