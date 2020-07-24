@@ -1,13 +1,10 @@
-body {
-    /* background-color: rgb(241, 169, 169); */
-}
-
 .navbar {
-    background-color: rgb(233, 136, 97);
+    background-color: rgb(27, 27, 27);
 }
 
 .container {
     border-radius: 2rem;
+    /* background-color: rgb(245, 151, 114); */
 }
 
 .heading {
@@ -16,12 +13,7 @@ body {
 }
 
 hr {
-    color: lightcyan;
-    border: 1px dotted white;
-    size: 0.5rem;
-}
-
-.textarea {
-    /* background-color: yellowgreen; */
-    /* color: sienna; */
+    color: black;
+    border: 0.1rem solid black;
+    size: 1rem;
 }
