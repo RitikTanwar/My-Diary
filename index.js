@@ -1,6 +1,4 @@
-console.log("Welcome to MyDiary");
-
-//Add evemtlistener
+//Add evenlistener
 showNotes();
 let addbtn = document.querySelector(`.addbtn`);
 addbtn.addEventListener(`click`, function(e) {
@@ -40,7 +38,7 @@ function showNotes() {
         <div class="card-body">
             <h5 class="card-title"> ${element.title}</h5>
             <p class="card-text">${element.txt}</p>
-            <button id="${index}" onclick="deleteNote(this.id)" class="btn btn-primary">Delete Diary</button>
+            <button id="${index}" onclick="deleteNote(this.id)" class="btn btn-primary">Delete Note</button>
         </div>
     </div>
         `
